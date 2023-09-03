@@ -14,13 +14,13 @@ You can return the answer in any order.*/
 
 public class TwoSum_1 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SolutionTwoSum solution = new SolutionTwoSum();
         int[] nums = {3, 2, 4};
         System.out.println(Arrays.toString(solution.twoSum(nums, 6)));
     }
 }
 
-class Solution {
+class SolutionTwoSum {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {
