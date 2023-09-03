@@ -75,7 +75,7 @@ class SolutionN_Queens_51 {
     }
 
     public void saveBoard(char[][] board, List<List<String>> allBoards) {
-        StringBuilder rows = new StringBuilder();
+        StringBuilder rows;    // = new StringBuilder();
         List<String> newBoard = new ArrayList<>();
 
         for (char[] chars : board) {
